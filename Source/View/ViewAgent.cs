@@ -69,10 +69,10 @@ public class ViewAgent
         {
             Console.WriteLine($"Now serving: {Customer.Name}");
 
-            var Items = ItemController.GetItems().Where(r => r.Stock < 0);
+            var Items = ItemController.GetItems().Where(r => r.Stock > 0);
             var Counter = 1;
 
-            Console.WriteLine("# | ID | Item | Price | Insatllment");
+            Console.WriteLine("# | ID | Item | Price | Installment");
 
             foreach (var Row in Items)
             {
