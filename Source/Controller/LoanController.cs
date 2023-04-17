@@ -8,7 +8,7 @@ public class LoanController
         JsonHelper.LoanAdd(data);
     }
 
-    public static bool ItemUpdate(Loan data)
+    public static bool LoanUpdate(Loan data)
     {
         return JsonHelper.LoanUpdate(data);
     }

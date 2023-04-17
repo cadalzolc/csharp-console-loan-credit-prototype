@@ -26,7 +26,8 @@ do
             mgr.Initialize();
             break;
         case "2":
-            Console.WriteLine("Kiosk");
+            var ksk = new ViewKiosk();
+            ksk.Initialize();
             break;
         case "3":
             var lgn = new ViewLogin();

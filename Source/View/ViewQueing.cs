@@ -5,12 +5,15 @@ public class ViewQueing
 
     public void Initialize()
     {
+
         Console.Clear();
 
         string? choice;
 
         do
         {
+
+
             Console.WriteLine();
             Console.WriteLine("*********************************");
             Console.WriteLine("Welcome to customer queing.");

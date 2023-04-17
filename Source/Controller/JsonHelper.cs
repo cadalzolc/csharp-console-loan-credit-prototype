@@ -269,6 +269,7 @@ public class JsonHelper
 
         if (i == -1) return false;
 
+        lst[i].Balance = info.Balance;
         lst[i].Payments = info.Payments;
 
         if (File.Exists(PathLoans)) File.Delete(PathLoans);

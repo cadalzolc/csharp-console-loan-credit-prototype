@@ -468,7 +468,24 @@ public class ViewOwner
     private void SalesBoard()
     {
         Console.WriteLine();
+        Console.WriteLine("--------------------------------------");
         Console.WriteLine("Sales Report");
+
+        var Lst = LoanController.GetLoans();
+        var Counter = 1;
+
+        Console.WriteLine("--------------------------------------");
+        Console.WriteLine("# | Customer | Item | Amount");
+        foreach (var Row in Lst)
+        {
+            Console.WriteLine("{0} | {1} | {2} | {3}", Counter, Row.Customer, Row.Item, Row.Price);
+            Counter++;
+        }
+        Console.WriteLine("--------------------------------------");
+        Console.WriteLine();
+        Console.WriteLine("Total Sales: {0}", Lst.Sum(r => r.Price).ToString("P ###, ##0.0"));
+        Console.WriteLine("######################");
+        Console.WriteLine();
     }
 
 

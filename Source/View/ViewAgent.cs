@@ -220,11 +220,9 @@ public class ViewAgent
     private void History()
     {
         Console.WriteLine();
-        Console.WriteLine("Serve Customer");
+        Console.WriteLine("Served History");
 
         var Lst = LoanController.GetLoans().Where(r => r.AgentID.Equals(CurrentUser.ID));
-
-        Console.WriteLine("Server History");
 
         foreach(var Row in Lst)
         {
