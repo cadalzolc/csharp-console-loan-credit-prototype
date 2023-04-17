@@ -1,0 +1,15 @@
+E:\Dummy\FinalProject\FinalProject\bin\Debug\net7.0\FinalProject.exe
+E:\Dummy\FinalProject\FinalProject\bin\Debug\net7.0\FinalProject.deps.json
+E:\Dummy\FinalProject\FinalProject\bin\Debug\net7.0\FinalProject.runtimeconfig.json
+E:\Dummy\FinalProject\FinalProject\bin\Debug\net7.0\FinalProject.dll
+E:\Dummy\FinalProject\FinalProject\bin\Debug\net7.0\FinalProject.pdb
+E:\Dummy\FinalProject\FinalProject\obj\Debug\net7.0\FinalProject.csproj.AssemblyReference.cache
+E:\Dummy\FinalProject\FinalProject\obj\Debug\net7.0\FinalProject.GeneratedMSBuildEditorConfig.editorconfig
+E:\Dummy\FinalProject\FinalProject\obj\Debug\net7.0\FinalProject.AssemblyInfoInputs.cache
+E:\Dummy\FinalProject\FinalProject\obj\Debug\net7.0\FinalProject.AssemblyInfo.cs
+E:\Dummy\FinalProject\FinalProject\obj\Debug\net7.0\FinalProject.csproj.CoreCompileInputs.cache
+E:\Dummy\FinalProject\FinalProject\obj\Debug\net7.0\FinalProject.dll
+E:\Dummy\FinalProject\FinalProject\obj\Debug\net7.0\refint\FinalProject.dll
+E:\Dummy\FinalProject\FinalProject\obj\Debug\net7.0\FinalProject.pdb
+E:\Dummy\FinalProject\FinalProject\obj\Debug\net7.0\FinalProject.genruntimeconfig.cache
+E:\Dummy\FinalProject\FinalProject\obj\Debug\net7.0\ref\FinalProject.dll
